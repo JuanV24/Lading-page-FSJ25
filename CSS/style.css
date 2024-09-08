@@ -1,0 +1,147 @@
+/*body seccion*/
+body{
+background: linear-gradient(135deg,#4f2022,#ffffff) !important;
+font-family: 'Barlow Condensed', sans-serif !important;
+
+}
+
+/*----------------------CONTENIDO DE HEADER--------------------*/
+/*Imagen del header*/
+
+.container .header-container .navbar{
+    font-size: 20px !important;
+}
+.container .header-container .navbar .navbar-nav .as{
+    padding: 20px !important;
+
+}
+.container .header-container .navbar .navbar-nav .barra-content .form-control{
+    margin-top: 15px !important;
+
+}
+.container .header-container .navbar .navbar-nav .barra-content.btn{
+height: 10px !important;
+max-width: 20px !important;
+
+}
+
+.container .header-container .img-header img{
+    max-width: 18vw ;
+    max-height: 18vh;
+    margin-right: 12px;
+    
+}
+.container .header-container .barra-content button{
+    border-color: #4f2022;
+    color: #4f2022;
+}
+
+.container .header-container .barra-content button:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+
+/*-----------------------CONTENIDO DEL MAIN-----------------------*/
+/*Carrusel con promociones*/
+.container .main-content .carousel-content .carousel-inner {
+border-radius: 5% !important;
+max-width: 80vw;
+
+}
+
+
+/*cards*/
+.container .main-content .card-section .row .card-title h1{
+text-align: center !important;
+
+
+}
+.container .main-content .card-section .row .card-title button{
+margin-left: 145px !important;
+color: black !important;
+border-color: black !important;
+    
+}
+
+
+
+/*Contenido de nuestras marcas*/
+
+.container .main-content .container-brands .row .col img{
+max-width: 30vw !important;
+max-height: 30vh !important;
+
+}
+
+/*Carousel de anuncios*/
+
+.container .main-content .carousel{
+margin-top: 75px !important;
+
+}
+.container .main-content .carousel-inner{
+    border-radius: 5%;
+}
+.container .main-content .carousel-inner .carousel-item{
+    max-width: 80vw !important;
+    max-height: 80vh !important;
+}
+.container .main-content .carousel-inner .carousel-item img{
+    max-width: 80vw !important;
+    max-height: 80vh !important;
+
+}
+
+/*-----------SECCION DEL FOOTER----------------*/
+.container .footer-content .row .col .redes h1{
+padding: 15px !important;
+
+}
+.container .footer-content .row .col .redes i{
+    color: #4f2022 !important;
+    
+    }
+/*Media Query*/
+/*Tablest*/
+@media (min-width: 820px) and (max-width:1180px){
+
+    .container .main-content .card-section .row .card-title button{
+        margin-left: 56px !important;
+            
+        }
+
+        .container .main-content .carousel-content .carousel-inner {
+            border-radius: 5% !important;
+            max-width: 80vw;
+            justify-content: center !important;
+            }
+
+            .container .main-content .carouselExampleIndicators{
+                max-width: 82vw !important;
+               
+            }
+
+}
+
+/*Telefonos */
+@media (min-width: 414px) and (max-width:896px){
+    .container .main-content .card-section .row .card-title button {
+    
+            margin-left: 5px !important;
+    
+        }
+    
+        .container .main-content .carousel-content .carousel-inner {
+            max-width: 92vw;
+        }
+    
+        .container .main-content .carousel-content .carousel-inner .carousel-item {
+            max-width: 92vw !important;
+        }
+    
+        .container .main-content .carousel-content .carousel-inner .carousel-item img {
+            max-width: 92vw !important;
+        }
+
+}
+

@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(135deg,#4f2022,#ffffff);
+    min-height: 100vh;
+    margin: auto;
+    }
+/*----------------------CONTENIDO DE HEADER--------------------*/
+/*Imagen del header*/
+.header-container{
+padding-right: 80px;
+padding-left: 80px;
+
+}
+ .header-container .navbar{
+    font-size: 20px !important;
+}
+ .header-container .navbar .navbar-nav .as{
+    padding: 20px !important;
+
+}
+.header-container .navbar .navbar-nav .barra-content .form-control{
+    margin-top: 15px !important;
+
+}
+ .header-container .navbar .navbar-nav .barra-content.btn{
+height: 10px !important;
+max-width: 20px !important;
+
+}
+
+.header-container .img-header img{
+    max-width: 18vw ;
+    max-height: 18vh;
+    margin-right: 12px;
+    
+}
+.header-container .barra-content button{
+    border-color: #4f2022;
+    color: #4f2022;
+}
+
+.header-container .barra-content button:hover{
+    background-color: rgb(248, 248, 248);
+}
+/****************Main******************/
+.main-content{
+    margin-top: 50px;
+}
+.main-content .container-shop{
+    margin-top: 50px;
+}
+
+.main-content .row{
+    display: flex;
+    padding: 50px;
+}
+.main-content .row .col{
+    padding: 5px;
+
+}
+.main-content .row .col img{
+    max-width: 150px;
+    max-height: 150px;
+  
+}
